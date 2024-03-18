@@ -1,0 +1,208 @@
+<html>
+<head>
+	<title>My Book</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+<body bgcolor="blue">
+    <p>
+    	<center>
+    	<ul style="list-style-type: none;  padding: 0;">
+        <li style="display: inline;  margin-right: 10px"><a href="./home.html" 
+
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">HOME</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./About.html" 
+
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">ABOUT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./contact.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">CONTACT</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./services.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">SERVICES</a></li>
+        <li style="display: inline;  margin-right: 10px"><a href="./form.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">FORM</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./Table.html" 
+            style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">TABLE</a></li>
+        
+        <li style="display: inline;  margin-right: 10px"><a href="./sample book.html" 
+        	style="padding: 10px;color: white;background-color: hotpink;text-decoration: none;margin-right: 15px;">SAMPLE BOOK</a></li>
+    </ul></center>
+
+	</p>
+	<h1>DATABASE AND JAVA WITH HANDCRAFT BUSINESS CONSULTING SYSTEM</h1>
+	<ol><h2><u><li>DATABASE</li></u></h2>
+		<p>Database name used: <b>handcraft business consulting system.</b></p>
+		<ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+			<ol><li><b>Client Table</b></li>
+
+			<p>Client table database structure this table serves as a resprository for announcement within the enterprise. it includes fields for stoing announcement messages and the dates when they were added to the system. </p></br>
+
+			<li><b>Consultant Table</b></li>
+
+			<p>Consultant table database structure this table stores comprehensive information about the clientsassociated with the enterprise. This includes their names, addresses, ages, genders, email addresses, passwords, and assignedroles within the system.</p></br>
+
+
+			<li><b>Consultation session Table</b></li>
+
+			<p>Consultation session Table database structure This table maintains records of sales transactions made by distributors. it captures details such as the names of client,products sold, quantities, amount, and the dates when the sales occured.</p></br>
+
+			<li><b>Business experts Table</b></li>
+
+			<p>Business experts Table database structure This table contains detailed informatin about the stock held by distributors. it includes data on product names, unique IDs, and the quantities of each product in stock.</p></br>
+
+            <li><b>Communication logs Table</b></li>
+
+			<p>Communication logs Table database structure This table provided by users is stored in this table. it includes fields for the names of distributors, the feedback messages they submit, and the dates when the feedback was received.</p></br>
+
+			<li><b>Feedback and reviewer Table</b></li>
+
+			<p>Feedback and reviewer Table database structure This table information about orders placed by distributors is stored in this table. it includes data such as distributor names, unique IDs, order dates, the products ordered, quantities, amounts, and the confirmation statuses of the orders.</p></br>
+			
+			<li><b>Users Tables</b></li>
+
+			<p>Users table database structure This table records of payments made by distributors are stored in this table. it includes fields for distributor names, unique IDs, payment dates, and the amounts paid.</p></br>
+
+				
+
+			              <h3><u><i><li>Attributes</li></i></u></h3>
+			       <ol type="a"><li><b>Attributes of Users Table</b></li></br>
+    Here are the descriptions or purposes of the attributes/columns used in users table:</br>
+
+    <ol type="i"><li><p><b><i>fname, lname:</i></b> The columns which are represents first name and last name of user.</br></p></li> 
+
+    <li><p><b><i>id:</i></b> The column which are represents id of user.</br></p></li>
+
+    <li><p><b><i>gender:</i></b> The column which are represents or store gender of user like female and male.</br></p></li>
+
+    <li><p><b><i>role:</i></b> The column which are represents role of user.</br></p></li> 
+
+    <li><p><b><i>DoB:</i></b> The column which are represents Date of Birth of user.</br></p></li>
+
+   <li><p><b><i>Email:</i></b> The column which are represents Email of given user.</br></p></li>
+
+    <li><p><b><i>Password:</i></b> The column which are represents  password of the user.</br></p></li></ol>
+
+
+                    <li><b>Attributes of client Table</b></li></br>
+
+    Here are the descriptions or purposes of the attributes/columns used in client table:</br>
+
+<ol type="i"><li><p><b><i>client-Id:</i></b> The column which are represents  id of product which is unique value called PRIMARY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of Product table.</br></p></li>
+
+<li><p><b><i>Name:</i></b> The column which are represents  the name of the product like Prinnter.</p></br></li>
+
+<li><p><b><i>contact information:</i></b> The column which are represents contact information.</br></p></li>
+
+<li><p><b><i>Business name:</i></b> The columns which are represents  the business name.</br></p></li></ol>
+
+
+                    <li><b>Attributes of feedback and reviewer Table</b></li></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in feedback and reviewer table:</br>
+
+
+
+<ol type="i"><li><p><b><i>feedback_Id:</i></b> The column which are represents  id of  Supplier which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of Supplier table.</p></br></li>
+
+<li><p><b><i>Session-id:</i></b> The column which are represents  id of product which  is references to the product  table value called FOREIGN KEY.  It is a column of product table  which has relationship between Supplier table.</p></br></li>
+
+<li><p><b><i>Participant:</i></b> The column which are represents  the name of participant Company.</p></br></li>
+
+<li><p><b><i>Rating, comment:</i></b> The column which are represents rate, comment of Supplier.</p></br></li>
+
+<li><p><b><i>date:</i></b> The column which are represents gender of supplier like female and male.</p> </br></li></ol>
+
+
+                    <li><b>Attributes of Consultant Table</b></li></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in Consultant table:</br>
+
+<ol type="i"><li><p><b><i>Consultant_Id:</i></b> The column which are represents  id of  Stock_Transaction  which is unique value called PRIMARY KEY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of Stock_Transaction table.</p></br></li>
+
+
+<li><p><b><i>Name:</i></b> The column which are represents  id of product which  is references to the product  table value called FOREIGN KEY.  It is a column of product table  which has relationship between Stock_Transaction table.</p></br></li>
+
+<li><p><b><i>Contact information:</i></b> The column which are represents contact.</p></br></li> 
+
+<li><p><b><i>Expertise:</i></b> The column which are represents the amount of product for being transaction, may be it can purchase goods which has 45kg or 45.55.</p></br></li>
+
+<li><p><b><i>Consulting session:</i></b> The column which are represents  consulting session.</p></br></li></ol>
+
+
+                    <li><b>Attributes of Consultation session Table</b></li></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in Consultation session table:</br>
+
+
+<ol type="i"><li><p><b><i>Session_Id:</i></b> The column which are represents  id of  Customers  which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of Customers  table.</p></br></li>
+
+
+<li><p><b><i>Client_Id:</i></b> The column which are represents  id of product which  is references to the product  table value called FOREIGN KEY.  It is a column of product table  which has relationship between Customers  table.</p></br></li>
+
+<li><p><b><i>Consultant-id:</i></b> The column which are represents  the name of  the customer.</p></br></li>
+
+
+<li><p><b>Date,time,duration:</i></b> The column which are represents  the duration of customer.</p></br></li>
+
+<li><p><b><i>Agenda:</i></b> The column which are represents agenda of customer.</p></br></li>
+
+<li><p><b><i>Outcame:</i></b> The column which are represents outcame of customer.</p></br></li></ol> 
+
+
+
+                    <li><b>Attributes of Bussiness experts Table</b></li></ol></br>
+
+    Here are the descriptions or purposes of the attributes/columns used in Business experts table:</br>
+
+
+<ol type="i"><li><p><b><i>Expert_Id:</i></b> The column which are represents  id of  Customers  which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of Orders  table.</p></br></li>
+
+<li><p><b><i>Name:</i></b> The column which are represent first name and last name of customer.</p></br></li>
+
+<li><p><b><i>Contact information:</i></b> The column which are represents  the contact of being orders of customer.</p></br></li>
+
+<li><p><b><i>Area of expertise:</i></b> The column which are represents  the  location.</p></br></li>
+
+<li><p><b><i>Consulting history:</i></b> The column which are represents  the status of orders, they can be pending,processing, shipped, etc.</p></br></li>
+ 
+
+
+
+        </ul>
+		<h2><u><li>JAVA PROGRAMMING</li></u></h2>
+		
+		<ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+			  <b>Introduction</b><br>
+ <p>In this chapter I will be describing how powerful generalpurpose programming language was used to create the analyzed system. Under this chapter I will undergo full detail of how everything will function together with database that have been describe above and how it cope with full analyzed system.</p><br>
+ 
+	<b>Tools used to develop this system in java programming</b><br>
+
+<ol type="a"><li><p><b>Eclipse IDE:</b> an integrated development environment used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment. It is the second-most-popular IDE for Java development, and was the most popular. </p><br></li>
+
+<li><p><b>JAR stands for Java Archive:</b>  It's a file format based on the popular ZIP file format and is used for aggregating many files into one. Although JAR can be used as a general archiving tool, the primary motivation for its development was so that Java applets and their requisite components. </p><br></li></ol>
+
+
+
+
+
+
+<p><b>MySQL Connectors:</b> MySQL provides standards-based drivers for JDBC, ODBC, and .Net enabling developers to build database applications in their language.</p><br>
+
+
+
+			              
+</ul>
+		
+	</ol>
+	<marquee><u><i><h2 style="color: white;">Prepared By</i></u>: UMUHOZA Kampire Noelline</h2></marquee>
+	</body>
+	</html>
